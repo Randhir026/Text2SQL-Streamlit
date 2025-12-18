@@ -96,6 +96,8 @@ Text2SQL-Streamlit/
 │
 ├── embeddings/
 │   └── generate_embeddings.py
+├── llm/
+│   └── text_to_sql.py
 │
 ├── utils/
 │   └── sql_generator.py     # Natural language to SQL logic
