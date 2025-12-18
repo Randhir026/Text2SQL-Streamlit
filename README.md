@@ -108,7 +108,7 @@ Text2SQL-Streamlit/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Text2SQL-Streamlit.git
+git clone https://github.com/Randhir026/Text2SQL-Streamlit.git
 cd Text2SQL-Streamlit
 ```
 
@@ -183,12 +183,6 @@ http://localhost:8501
 * Improve semantic search accuracy
 * Add query history and caching
 * Support complex joins and aggregations
-
----
-
-## 📽️ Demo
-
-A screen recording demonstrating the working application is included as part of the project submission.
 
 ---
 
