@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg15
+    container_name: vocso_pg
+    environment:
+      POSTGRES_DB: vocso
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Randhir@1#
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./db:/docker-entrypoint-initdb.d
